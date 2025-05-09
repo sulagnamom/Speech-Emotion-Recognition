@@ -4,13 +4,13 @@ Speech Emotion Recognition presents a deep learning project focused on classifyi
 
 # Key Components:
 
-## Data Preprocessing: The notebook employs the librosa library to extract audio features such as Mel-frequency cepstral coefficients (MFCCs), which are instrumental in capturing the timbral aspects of speech.
+Data Preprocessing: The notebook employs the librosa library to extract audio features such as Mel-frequency cepstral coefficients (MFCCs), which are instrumental in capturing the timbral aspects of speech.
 
-## Model Architecture: A Long Short-Term Memory (LSTM) neural network is implemented using Keras and TensorFlow. LSTMs are adept at handling sequential data, making them suitable for modeling temporal dependencies in speech signals.
+Model Architecture: A Long Short-Term Memory (LSTM) neural network is implemented using Keras and TensorFlow. LSTMs are adept at handling sequential data, making them suitable for modeling temporal dependencies in speech signals.
 
-## Performance: The model achieves an accuracy of approximately 67% in classifying the seven emotional states. 
+Performance: The model achieves an accuracy of approximately 67% in classifying the seven emotional states. 
 
-## Libraries Used: The project leverages several Python libraries, including pandas for data manipulation, matplotlib for visualization, keras and tensorflow for building and training the neural network, and librosa for audio processing.
+Libraries Used: The project leverages several Python libraries, including pandas for data manipulation, matplotlib for visualization, keras and tensorflow for building and training the neural network, and librosa for audio processing.
 
 # Dataset Information
 There are a set of 200 target words were spoken in the carrier phrase "Say the word _' by two actresses (aged 26 and 64 years) and recordings were made of the set portraying each of seven emotions (anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral). There are 2800 data points (audio files) in total.
